@@ -77,9 +77,11 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/Meodinger/LabelPlusFX.git
    ```
-2. Run maven build `package`
+2. Run `maven clean package`
 
-3. Build with script, both `link.bat` and `build.bat` is OK
+3. Build with script.
+   - For Windows user, both `link.bat` in `script/jlink` and `build.bat` in `script/jpackage` is OK.
+   - For MacOS user, first run `build.sh` in `script/jpackage`.
 
 4. For Windows User, build solution `IMEWrapper` and copy the `IMEInterface.dll` and `IMEWrapper.dll` to the same folder with `LabelPlusFX.exe` if used `jpackage` or `runtime\java.exe` if used `jlink`.
 

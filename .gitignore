@@ -20,3 +20,7 @@
 lpfx.iml
 lpfx.ipr
 lpfx.iws
+
+/jar/*
+runtime/*
+.DS_Store
